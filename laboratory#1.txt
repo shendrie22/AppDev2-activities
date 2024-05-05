@@ -1,0 +1,82 @@
+Instructions:
+Setting Up MySQL:
+Ensure that MySQL is installed on your computer. If not, download and install MySQL Community Server from the official website.
+Launch the MySQL Command Line Client or any MySQL GUI tool (e.g., phpMyAdmin, MySQL Workbench, TablePlus, etc.).
+Creating a Database:
+Create a new database named "Company".
+
+            MariaDB [(none)]> CREATE DATABASE Company;
+
+Selecting a Database:
+Select the "Company" database.
+
+            MariaDB [(none)]> USE Company
+
+Creating a Table:
+Create a new table named "Employees" with the following columns:
+EmployeeID (INT, PRIMARY KEY)
+FirstName (VARCHAR with 20 characters)
+LastName (VARCHAR  with 20 characters)
+Age (INT)
+Department (VARCHAR)
+
+            MariaDB [Company]> CREATE TABLE Employees (
+                ->     EmployeeID INT PRIMARY KEY,
+                ->     FirstName VARCHAR(20),
+                ->     LastName VARCHAR(20),
+                ->     Age INT,
+                ->     Department VARCHAR(50)
+                -> );
+
+Inserting Data into the Table:
+Insert at least 5 records into the "Employees" table.
+
+            MariaDB [Company]> INSERT INTO Employees (EmployeeID, FirstName, Lastname, Age, Department) VALUES
+                -> (1, 'Rachelle', 'Fualo', 20, 'IT' ),
+                -> (2, 'Evelyn', 'Pagente', 22, 'Finance' ),
+                -> (3, 'Steffanie', 'Egloso', 21, 'HR' ),
+                -> (4, 'Sherline', 'De Guzman', 21, 'Dpo' ),
+                -> (5, 'Rizabel Anne', 'Pili', 23, 'Accounting' );
+
+
+Viewing Data:
+Retrieve and display all records from the "Employees" table.
+
+                MariaDB [Company]> SELECT * FROM Employees;
+
+
+Updating Data:
+Update the Department of employee with EmployeeID 2 to "Marketing".
+
+                MariaDB [Company]> UPDATE Employees SET Department = 'Marketing' WHERE E
+                mployeeID = 2;
+
+Deleting Data:
+Delete the record of employee with EmployeeID 3 from the "Employees" table.
+
+                MariaDB [Company]> DELETE FROM Employees WHERE EmployeeID = 3;
+
+
+Dropping the Table:
+Drop the "Employees" table from the database.
+
+                MariaDB [Company]> DROP TABLE Employees;
+
+Uploading SQL File to GitHub:
+Create a file named 01_laboratory.sql containing the SQL commands used in this laboratory activity.
+-- Creating a Database
+# SQL syntax here
+
+                MariaDB [(none)]> CREATE DATABASE Company;
+
+
+
+-- Selecting a Database
+# SQL syntax here
+
+                MariaDB [(none)]> USE Company
+
+
+….
+Push your work to your public GitHub repository named appdev2-activities.
+
