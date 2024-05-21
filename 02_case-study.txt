@@ -1,0 +1,22 @@
+Our IT company embarked on an ambitious project in January 2024 aimed at delivering 
+cutting-edge software solution to our users and clients. The project was meticulously 
+planned with a target launch date of June 1. However, as the deadline approaches, it 
+becomes apparent that several tasks are still in progress, and there are unresolved bugs
+that need attention. The testing process, crucial for ensuring product quality, has not yet
+begun. As a software engineer involved in the project, what aspects could have been 
+handled better to prevent the delays and issues experienced, such as incomplete tasks,
+unresolved bugs, and a delayed testing process?
+
+For this activity, evaluate the situation and offer your suggestions on areas where
+improvements could have been made.
+
+Answer!!!!!!!!
+
+To prevent delays and issues in the project, it is crucial to have clear requirements and scope
+management from the start, ensuring all stakeholders agree on the objectives to avoid scope creep. 
+Setting a realistic timeline with well-defined milestones helps track progress effectively. 
+Proper resource allocation is critical, ensuring that the team has the necessary skills and support to meet deadlines
+Regular communication and updates among team members and stakeholders are vital to address issues promptly.
+Implementing a robust risk management strategy can help identify and mitigate potential problems early on. 
+Additionally, integrating continuous testing throughout the development process ensures bugs are
+identified and resolved promptly, preventing delays in the final testing phase.
